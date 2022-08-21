@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="Nippo.Components.Login"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Nippo.Components"
+             mc:Ignorable="d" Height="350" Width="300">
+    <Border CornerRadius="8" Background="{DynamicResource PrimaryBackgroundColor}">
+        <Grid>
+            <Label Content="Tên đăng nhập" HorizontalAlignment="Left" Margin="33,89,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,-1.134"/>
+            <TextBox HorizontalAlignment="Left" Margin="38,115,0,0" TextWrapping="Wrap" Text="admin" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Mật khẩu" HorizontalAlignment="Left" Margin="33,149,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.658,-1.134"/>
+            <TextBox HorizontalAlignment="Left" Margin="38,175,0,0" TextWrapping="Wrap" Text="admin" VerticalAlignment="Top" Width="120"/>
+            <Button Content="Login" HorizontalAlignment="Left" Margin="100,230,0,0" VerticalAlignment="Top" Height="40" Width="90" Background="Blue" Foreground="White" />
+        </Grid>
+    </Border>
+</UserControl>
